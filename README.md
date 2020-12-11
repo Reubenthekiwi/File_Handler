@@ -5,6 +5,7 @@ Made by Reuben Prabaswara Windukusuma aka Kiwi
 
 Methods:
   - Boolean values:
+    
     // Methods to check for files (returns a boolean value) 
     > checkForFile(String path)
     > checkForFile(File file)
@@ -28,6 +29,7 @@ Methods:
     > append(File file, String text)
     
   - String values:
+    
     // Methods to read one specific line from a file (returns a string value), if user inputs -1 for the "line" parameter, it will return the last line of the file
     > readLine(String path, int line)
     > readLine(File file, int line)
